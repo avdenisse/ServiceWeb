@@ -1,0 +1,12 @@
+module com.example.servicioweb {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires java.net.http;
+    requires com.fasterxml.jackson.databind;
+
+    opens com.example.servicioweb.controller to javafx.fxml;
+    exports com.example.servicioweb.controller to javafx.fxml;
+    opens com.example.servicioweb.model to javafx.base;
+    opens com.example.servicioweb to javafx.fxml;
+    exports com.example.servicioweb;
+}
