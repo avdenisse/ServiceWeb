@@ -26,7 +26,8 @@ public class CustomerService {
         return OffsetDateTime.parse(fecha).toLocalDateTime();
     }
     private static final String URL =
-            "https://sqpvqkkdfgtzdgrjrgxs.supabase.co/rest/v1/customers";
+            System.getenv("API_URL");
+
 
     // Obtener la API Key desde una variable de entorno
     private static final String API_KEY =
