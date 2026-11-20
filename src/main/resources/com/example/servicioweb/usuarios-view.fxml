@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.servicioweb.controller.UsuarioController">
    <children>
       <Label layoutX="37.0" layoutY="30.0" text="Consulta de usuarios - API REST">
